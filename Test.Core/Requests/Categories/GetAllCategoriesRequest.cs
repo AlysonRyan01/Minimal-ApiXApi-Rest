@@ -1,6 +1,6 @@
 namespace Test.Core.Requests.Categories;
 
-public class GetAllCategoriesRequest
+public class GetAllCategoriesRequest : BaseRequest
 {
     
 }

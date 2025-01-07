@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/Test.MinimalApi.csproj": {}
+    "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.MinimalApi\\Test.MinimalApi.csproj": {}
   },
   "projects": {
-    "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.Core/Test.Core.csproj": {
+    "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\Test.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.Core/Test.Core.csproj",
+        "projectUniqueName": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\Test.Core.csproj",
         "projectName": "Test.Core",
-        "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.Core/Test.Core.csproj",
-        "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
-        "outputPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.Core/obj/",
+        "projectPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\Test.Core.csproj",
+        "packagesPath": "C:\\Users\\TVS'PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\TVS'PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,8 +45,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -59,34 +66,42 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/Test.MinimalApi.csproj": {
+    "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.MinimalApi\\Test.MinimalApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/Test.MinimalApi.csproj",
+        "projectUniqueName": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.MinimalApi\\Test.MinimalApi.csproj",
         "projectName": "Test.MinimalApi",
-        "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/Test.MinimalApi.csproj",
-        "packagesPath": "/Users/alysonryanullirsch/.nuget/packages/",
-        "outputPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/obj/",
+        "projectPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.MinimalApi\\Test.MinimalApi.csproj",
+        "packagesPath": "C:\\Users\\TVS'PC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.MinimalApi\\obj\\",
         "projectStyle": "PackageReference",
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/alysonryanullirsch/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\TVS'PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.Core/Test.Core.csproj": {
-                "projectPath": "/Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.Core/Test.Core.csproj"
+              "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\Test.Core.csproj": {
+                "projectPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\Test.Core.csproj"
               }
             }
           }
@@ -100,8 +115,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net9.0": {
@@ -147,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
