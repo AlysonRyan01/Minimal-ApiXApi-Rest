@@ -178,3 +178,13 @@
 /Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/obj/Debug/net9.0/Test.MinimalApi.pdb
 /Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/obj/Debug/net9.0/Test.MinimalApi.genruntimeconfig.cache
 /Users/alysonryanullirsch/Documents/ProjetosCsharp/Minimal-ApiXApi-Rest/Test.MinimalApi/obj/Debug/net9.0/ref/Test.MinimalApi.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.csproj.AssemblyReference.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.AssemblyInfoInputs.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.AssemblyInfo.cs
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.csproj.CoreCompileInputs.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.sourcelink.json
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\refint\Test.MinimalApi.dll
+C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.MinimalApi\obj\Debug\net9.0\Test.MinimalApi.pdb

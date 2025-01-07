@@ -13,7 +13,6 @@
         "packagesPath": "C:\\Users\\TVS'PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -45,7 +44,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -79,7 +79,6 @@
         "packagesPath": "C:\\Users\\TVS'PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\TVS'PC\\Documents\\MeusProjetos\\Minimal-ApiXApi-Rest\\Test.MinimalApi\\obj\\",
         "projectStyle": "PackageReference",
-        "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
@@ -115,7 +114,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "all"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
