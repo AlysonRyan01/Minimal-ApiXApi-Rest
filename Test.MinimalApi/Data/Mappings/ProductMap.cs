@@ -20,5 +20,10 @@ public class ProductMap : IEntityTypeConfiguration<Product>
         builder.Property(x => x.Price)
             .IsRequired()
             .HasColumnType("decimal");
+        
+        builder.Property(x => x.UserId)
+            .IsRequired()
+            .HasColumnType("NVARCHAR")
+            .HasMaxLength(128);
     }
 }

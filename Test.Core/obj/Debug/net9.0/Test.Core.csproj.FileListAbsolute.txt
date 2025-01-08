@@ -22,3 +22,15 @@ C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\
 C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\refint\Test.Core.dll
 C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.pdb
 C:\Users\TVS'PC\Documents\MeusProjetos\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\ref\Test.Core.dll
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\bin\Debug\net9.0\Test.Core.deps.json
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\bin\Debug\net9.0\Test.Core.dll
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\bin\Debug\net9.0\Test.Core.pdb
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.AssemblyInfoInputs.cache
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.AssemblyInfo.cs
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.csproj.CoreCompileInputs.cache
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.sourcelink.json
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.dll
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\refint\Test.Core.dll
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\Test.Core.pdb
+D:\GitHubRepository\Minimal-ApiXApi-Rest\Test.Core\obj\Debug\net9.0\ref\Test.Core.dll

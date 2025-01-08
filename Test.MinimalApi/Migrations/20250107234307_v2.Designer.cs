@@ -10,8 +10,8 @@ using Test.MinimalApi.Data;
 namespace Test.MinimalApi.Migrations
 {
     [DbContext(typeof(TestDbContext))]
-    [Migration("20250105195513_initial")]
-    partial class initial
+    [Migration("20250107234307_v2")]
+    partial class v2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -34,6 +34,11 @@ namespace Test.MinimalApi.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("NVARCHAR");
 
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(128)
+                        .HasColumnType("NVARCHAR");
+
                     b.HasKey("Id");
 
                     b.ToTable("Category", (string)null);
@@ -51,6 +56,11 @@ namespace Test.MinimalApi.Migrations
                     b.Property<string>("Title")
                         .IsRequired()
                         .HasMaxLength(50)
+                        .HasColumnType("NVARCHAR");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasMaxLength(128)
                         .HasColumnType("NVARCHAR");
 
                     b.HasKey("Id");

@@ -16,6 +16,7 @@ public class CategoryHandler(TestDbContext context) : ICategoryHandler
         {
             var category = new Category
             {
+                UserId = request.UserId,
                 Title = request.Title,
                 Description = request.Description,
             };

@@ -21,5 +21,10 @@ public class CategoryMap : IEntityTypeConfiguration<Category>
             .IsRequired(false)
             .HasColumnType("NVARCHAR")
             .HasMaxLength(280);
+        
+        builder.Property(x => x.UserId)
+            .IsRequired()
+            .HasColumnType("NVARCHAR")
+            .HasMaxLength(128);
     }
 }

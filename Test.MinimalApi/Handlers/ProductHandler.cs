@@ -1,4 +1,5 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
 using Test.Core.Handlers;
 using Test.Core.Models;
@@ -10,12 +11,13 @@ namespace Test.MinimalApi.Handlers;
 
 public class ProductHandler(TestDbContext context) : IProductHandler
 {
-    public async Task<Response<Product?>> PostProductAsync(CreateProductRequest request)
+    public async Task<Response<Product?>> PostProductAsync([FromBody]CreateProductRequest request)
     {
         try
         {
             var product = new Product
             {
+                UserId = request.UserId,
                 Title = request.Title,
                 Price = request.Price,
             };
@@ -52,7 +54,7 @@ public class ProductHandler(TestDbContext context) : IProductHandler
         }
     }
 
-    public async Task<Response<Product?>> UpdateProductAsync(UpdateProductRequest request)
+    public async Task<Response<Product?>> UpdateProductAsync([FromBody]UpdateProductRequest request)
     {
         try
         {
@@ -98,7 +100,7 @@ public class ProductHandler(TestDbContext context) : IProductHandler
         }
     }
 
-    public async Task<Response<Product?>> DeleteProductAsync(DeleteProductRequest request)
+    public async Task<Response<Product?>> DeleteProductAsync([FromBody]DeleteProductRequest request)
     {
         try
         {
@@ -142,7 +144,7 @@ public class ProductHandler(TestDbContext context) : IProductHandler
         }
     }
 
-    public async Task<Response<Product?>> GetByIdProductAsync(GetByIdProductRequest request)
+    public async Task<Response<Product?>> GetByIdProductAsync([FromBody]GetByIdProductRequest request)
     {
         try
         {
@@ -183,7 +185,7 @@ public class ProductHandler(TestDbContext context) : IProductHandler
         }
     }
 
-    public async Task<Response<List<Product>?>> GetAllProductsAsync(GetAllProductsRequest request)
+    public async Task<Response<List<Product>?>> GetAllProductsAsync([FromBody]GetAllProductsRequest request)
     {
         try
         {

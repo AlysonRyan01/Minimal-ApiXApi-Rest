@@ -8,17 +8,19 @@ public class UpdateCategoryEndpoint : IEndpoint
 {
     public static void Map(IEndpointRouteBuilder app)
     {
-        app.MapPut("/", HandleAsync)
-            .WithName("Categories: Create")
-            .WithSummary("Cria uma nova categoria")
-            .WithDescription("Cria uma nova categoria")
-            .WithOrder(1)
+        app.MapPut("/{id}", HandleAsync)
+            .WithName("Categories: Update")
+            .WithSummary("Atualiza uma categoria")
+            .WithDescription("Atualiza uma categoria")
+            .WithOrder(3)
             .Produces<Response<Core.Models.Category>>();
     }
 
-    private static async Task<IResult> HandleAsync(ICategoryHandler handler, UpdateCategoryRequest request)
+    private static async Task<IResult> HandleAsync(ICategoryHandler handler, UpdateCategoryRequest request, long id)
     {
         request.UserId = "alyson@gmail.com";
+        request.Id = id;
+        
         var result = await handler.UpdateCategoryAsync(request);
         
         return result.IsSuccess
